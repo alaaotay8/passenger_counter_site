@@ -1,0 +1,61 @@
+body {
+    background-image: url("metro.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100%;
+}
+
+.container {  /* we want to make our content on the center */
+    display: flex;
+    flex-direction: column; /*to stop one line content and deleting spaces */
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.cont{  
+    
+    backdrop-filter: blur(50px);
+    max-width: 50%;
+    min-height: 40%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgb(138, 130, 42);
+}
+
+#save-btn {
+    background: rgb(54, 136, 135);
+}
+
+#save-el {
+    color: rgb(0, 0, 0);
+}
